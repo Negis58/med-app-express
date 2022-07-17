@@ -1,0 +1,23 @@
+{
+  "framework": "ext",
+  "toolkit": "classic",
+  "requires": [],
+  "overrides": [
+    "overrides",
+    "jsdom-environment.js"
+  ],
+  "packages": {
+    "dir": [
+      "../../node_modules/@sencha",
+      "../../classic/packages"
+    ]
+  },
+  "output": {
+    "base": ".",
+    "resources": {
+      "path": "./resources",
+      "shared": "./resources"
+    }
+  },
+  "theme": "theme-material"
+}
